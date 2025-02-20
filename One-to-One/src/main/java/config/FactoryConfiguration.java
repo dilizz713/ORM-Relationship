@@ -12,16 +12,15 @@ public class FactoryConfiguration {
         Configuration configuration = new Configuration().configure();
         sessionFactory = configuration.buildSessionFactory();
 
-
     }
 
     public static FactoryConfiguration getInstance() {
-        if (factoryConfiguration == null) {
+       /* if (factoryConfiguration == null) {
             factoryConfiguration = new FactoryConfiguration();
         }
-        return factoryConfiguration;
+        return factoryConfiguration;*/
 
-        /*return (factoryConfiguration == null) ? new FactoryConfiguration() : factoryConfiguration;*/
+        return (factoryConfiguration == null) ? new FactoryConfiguration() : factoryConfiguration;
     }
 
     public Session getSession() {
