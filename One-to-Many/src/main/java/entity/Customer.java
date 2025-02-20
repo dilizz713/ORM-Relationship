@@ -24,4 +24,6 @@ public class Customer {
    /* cascade walin wenne,
         All = okkoma change wenwa
         Persist = save wena ewa */
+
+    //inverse side - foreign key ek dena kena
 }

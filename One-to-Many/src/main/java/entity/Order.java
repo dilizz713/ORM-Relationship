@@ -21,5 +21,7 @@ public class Order {
     @ManyToOne
     private Customer customer;
 
+    //owning side - foreign key eka aithi meyata
+
 
 }
