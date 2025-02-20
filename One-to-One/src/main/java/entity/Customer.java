@@ -16,6 +16,7 @@ public class Customer {
     //AUTO - hibernate decided auto value
     //IDENTITY - database generate auto value
     //For custom value don't use @GeneratedValue
+    //Auto or IDENTITY danawa nm ewa int wenna one
     private int id;
     private String name;
 }
