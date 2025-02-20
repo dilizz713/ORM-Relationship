@@ -16,6 +16,6 @@ public class IDCard {
     private  int id;
     private  String nicNumber;
 
-    @OneToOne
+    @OneToOne(mappedBy = "idCard")          //foreign key eka add krnwa Customer table ekta
     private Customer customer;
 }

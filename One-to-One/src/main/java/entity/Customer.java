@@ -21,5 +21,6 @@ public class Customer {
     private String name;
 
     @OneToOne
+    @JoinColumn(name = "nic_number")            //column ekata name ekak denna puluwan
     private IDCard idCard;
 }
