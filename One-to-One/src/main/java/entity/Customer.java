@@ -19,4 +19,7 @@ public class Customer {
     //Auto or IDENTITY danawa nm ewa int wenna one
     private int id;
     private String name;
+
+    @OneToOne
+    private IDCard idCard;
 }
